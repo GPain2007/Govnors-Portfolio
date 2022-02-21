@@ -1,0 +1,112 @@
+:root {
+  --blue: rgb(11, 7, 219);
+  --red: rgb(221, 14, 14);
+  --purple: #7c259e;
+}
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 .seo {
+  color: #d9dcd6;
+}
+
+.header div {
+  display: inline-block;
+}
+
+.header div ul {
+  list-style-type: block;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-image: url(../images/2.jpeg);
+  height: 100vh;
+}
+.sub-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: auto;
+  margin-bottom: 10px;
+  min-height: 10px;
+}
+.sub-container h1:hover {
+  border-color: black !important;
+  text-shadow: 2px 3px 4px black;
+}
+
+.sub-container h1 {
+  color: var(--red);
+  font-size: 100px;
+  font-style: italic;
+}
+.sub-container h2:hover {
+  border-color: black !important;
+  text-shadow: 2px 3px 4px black;
+}
+.sub-container h2 {
+  color: var(--red);
+  font-size: 50px;
+  float: right;
+}
+.sub-container:hover p {
+  border-color: black !important;
+  text-shadow: 2px 3px 4px black;
+  display: block;
+}
+.sub-container p {
+  color: whitesmoke;
+  font-size: 25px;
+  display: none;
+}
+.sub-container:hover {
+  text-shadow: 2px 3px 4px black;
+}
+.sub-container h3 {
+  font-size: 40px;
+  color: var(--red);
+}
+a:hover {
+  box-shadow: 10px 13px 24px black;
+}
+a {
+  text-decoration: none;
+  padding: 25px 35px 25px 35px;
+  border-radius: 10px;
+  border-spacing: 55px;
+  background-color: #2a607c;
+}
+@media screen and (max-width: 980px) {
+  body h1 h2 h3 p a {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body h1 h2 h3 p a {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 575px) {
+  body h1 h2 h3 p a {
+    font-size: 40px;
+  }
+}
