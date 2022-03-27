@@ -3,7 +3,13 @@
   --red: rgb(221, 14, 14);
   --purple: #7c259e;
 }
+/* body {
+  display: flex;
+
+} */
+
 .header {
+  justify-content: space-between;
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
