@@ -45,7 +45,7 @@
   justify-content: center;
   flex-direction: column;
   margin-bottom: 20px;
-  background-image: url(../images/2.jpeg);
+  background-color: cornflowerblue;
   height: 100vh;
 }
 .sub-container {
@@ -94,25 +94,35 @@
 a:hover {
   box-shadow: 10px 13px 24px black;
 }
+input:hover {
+  box-shadow: 10px 13px 24px black;
+}
 a {
   text-decoration: none;
-  padding: 25px 35px 25px 35px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  border-spacing: 55px;
+  background-color: #2a607c;
+}
+input {
+  width: 200px;
+  padding: 5px 5px 5px 5px;
   border-radius: 10px;
   border-spacing: 55px;
   background-color: #2a607c;
 }
 @media screen and (max-width: 980px) {
-  body h1 h2 h3 p a {
+  body h1 h2 h3 p a input {
     font-size: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  body h1 h2 h3 p a {
+  body h1 h2 h3 p a input {
     font-size: 80px;
   }
 }
 @media screen and (max-width: 575px) {
-  body h1 h2 h3 p a {
+  body h1 h2 h3 p a input {
     font-size: 40px;
   }
 }
