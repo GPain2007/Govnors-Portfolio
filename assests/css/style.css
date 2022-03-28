@@ -106,23 +106,34 @@ a {
 }
 input {
   width: 200px;
-  padding: 5px 5px 5px 5px;
+  height: 200px;
+  /* padding: 5px 5px 5px 5px; */
   border-radius: 10px;
   border-spacing: 55px;
   background-color: #2a607c;
 }
+img {
+  width: 100px;
+  height: 80px;
+  /* padding: 5px 5px 5px 5px; */
+  border-radius: 10px;
+  border-spacing: 55px;
+  background-color: #cbdfe9;
+
+  float: right;
+}
 @media screen and (max-width: 980px) {
-  body h1 h2 h3 p a input {
+  body h1 h2 h3 p a input img {
     font-size: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  body h1 h2 h3 p a input {
+  body h1 h2 h3 p a input img {
     font-size: 80px;
   }
 }
 @media screen and (max-width: 575px) {
-  body h1 h2 h3 p a input {
+  body h1 h2 h3 p a input img {
     font-size: 40px;
   }
 }
