@@ -1,5 +1,6 @@
 https://gpain2007.github.io/Govnors-Portfolio/
 
+https://github.com/GPain2007/Govnors-Portfolio
 
 # Govnors-Portfolio
 Made my portfolio not the best buyt it the best so far for me.
